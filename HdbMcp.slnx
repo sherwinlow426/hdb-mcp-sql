@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HdbMcp.Loader/HdbMcp.Loader.csproj" />
+    <Project Path="src/HdbMcp.Server/HdbMcp.Server.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HdbMcp.Tests/HdbMcp.Tests.csproj" />
+  </Folder>
+</Solution>
