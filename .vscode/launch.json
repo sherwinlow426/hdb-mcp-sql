@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Loader",
+      "type": "coreclr",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/src/HdbMcp.Loader/HdbMcp.Loader.csproj",
+      "args": ["${workspaceFolder}/data/snapshot-2026-10-05"],
+      "cwd": "${workspaceFolder}/src/HdbMcp.Loader",
+      "console": "integratedTerminal",
+      "env": {
+        "HDB_CS": "Server=localhost,1433;Database=hdb;User Id=sa;Password=REPLACE_ME;TrustServerCertificate=True"
+      }
+    },
+    {
+      "name": "Server (attach)",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}
